@@ -20,7 +20,7 @@ while(cap.isOpened()):
     r = 100.0 / gray.shape[1]
     dim = (100, int(gray.shape[0] * r))
  
-# perform the actual resizing of the image and show it
+# Selam keke
     resized = cv2.resize(gray, dim, interpolation = cv2.INTER_AREA)
     cv2.imshow("resized", resized)
 
